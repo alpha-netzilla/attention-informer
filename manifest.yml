@@ -1,0 +1,14 @@
+applications:
+- services:
+  - twitter
+  - tts
+  - nlc
+  - twilio
+  - sql
+  disk_quota: 1024M
+  host: nishin
+  name: nishin
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M

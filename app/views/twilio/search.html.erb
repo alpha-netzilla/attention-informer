@@ -1,0 +1,15 @@
+
+<p>aaaaaa</p>
+<%#= form_tag("/twitter/result", :method => :post) do %>
+<%= form_tag({ action: 'result' }, :method => :post, remote: true) do %>
+  <%= text_field :twitter, :query, :value => 'softbank' %>
+  <%= submit_tag 'search', :name => 'search' %>
+	<div id="loading" style="display:none; text-align: center">
+		<%= image_tag "loading.gif" %>
+	</div>
+
+<% end %>
+
+<div id="result"></div>
+
+<input type="button" value="change" id="change">

@@ -1,0 +1,9 @@
+$('#negative').html (
+	"<%= escape_javascript(render partial: 'result', locals: {tweets: @tweets_negative} ) %>"
+)
+$('#positive').html (
+	"<%= escape_javascript(render partial: 'result', locals: {tweets: @tweets_positive} ) %>"
+)
+$('#info').html (
+	"<%= escape_javascript(render partial: 'info') %>"
+)

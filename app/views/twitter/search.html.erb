@@ -1,0 +1,52 @@
+<div id="attention" style="display:none">
+	<%= image_tag "ui/attention.gif" %>
+</div>
+
+<div id="site-box">
+	<div id="head-box">
+		<div id="loading" style="display:none">
+			<%= image_tag "loading.gif" %>
+		</div>
+	</div>
+
+	<div id="button-box">
+		<%#= form_tag({ action: 'result' }, :method => :post) do %>
+		<%= form_tag({ action: 'result' }, :method => :post, remote: true) do %>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+				<label class="mdl-textfield__label">How long time (h)</label>
+				<input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="interval" value="3" />
+				<span class="mdl-textfield__error">Input a number!</span>
+			</div>
+
+
+			<%= image_submit_tag("ui/verizon.png", name: "image", value: "verizon") %>
+			<%= image_submit_tag("ui/att.png",     name: "image", value: "att") %>
+			<%= image_submit_tag("ui/tmobile.png", name: "image", value: "tmobile") %>
+			<%= image_submit_tag("ui/sprint.png",  name: "image", value: "sprint") %>
+		<% end %>
+
+	</div>
+
+
+  <div id="pie-box">
+    <div id="canvas-pie">
+      <canvas id="pie_graph" width="306" height="400" />
+    </div>
+  </div>
+
+  <div id="p-box">
+    <div id="positive">
+    </div>
+  </div>
+
+  <div id="n-box">
+    <div id="negative">
+    </div>
+  </div>
+
+  <div id="info"></div>
+
+  <div id="foot-box"></div>
+
+</div>
+

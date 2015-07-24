@@ -1,0 +1,38 @@
+<div id="twitter_search">
+
+	<% tweets.each do |tweet|
+		check = tweet["check"].to_i
+		next if check == 0
+
+		message = tweet["message"]
+		body = message["body"]
+		postedTime = message["postedTime"]
+
+		snip_url = message["link"]
+
+		actor = message["actor"]
+
+		name = actor["displayName"]
+		link = actor["link"]
+		image = actor["image"]
+
+  %>
+
+		<table>
+			<tbody>
+				<tr>
+					<td valign="top" rowspan="2">
+						<img src="<%= image %>">
+					</td>
+					<td>
+						@<%= name %>
+					</td>
+				</tr>
+				<tr>
+					<td><%= body %></td>
+				</tr>
+			</tbody>
+		</table>
+	<% end %>
+
+</div>

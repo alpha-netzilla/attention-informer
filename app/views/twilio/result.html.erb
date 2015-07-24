@@ -1,0 +1,35 @@
+<div class="twitter">
+
+	<% @tweets.each do |tweet| 
+		message = tweet["message"]	
+		body = message["body"]
+		snip_url = message["link"]
+
+		actor = message["actor"]
+
+		name = actor["displayName"]
+		link = actor["link"]
+		image = actor["image"]
+	%>
+
+
+	<table style="width:700px; margin: 0 auto;">
+		<tbody>
+			<tr>
+				<td valign="top" rowspan="3">
+					<img src="<%= image %>">
+				</td>
+				<td width="100%">
+					<span><%= name %></span>
+				</td>
+			</tr>
+
+			<tr>
+				<td><%= body %></td>
+			</tr>
+
+		</tbody>
+	</table>
+	<% end %>
+
+</div>
