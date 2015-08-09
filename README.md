@@ -2,7 +2,7 @@
 "Attention Informer" is an app that discovers claims in twitters using automated analytics powered by Insights for Twitter and the Natural Language Classifier(NLC) on IBM Bluemix. 
 The app is able to detect the negative tweets and judge grammatical homophone correctly.
 
-This time I created an app that are able to be used in the cell phone companies in America.
+This time I created an app that are able to use in the cell phone companies in America.
 NLC is necessary for picking up the word of, for instance, Sprint as a cell phone company without meaning of dash, rush and etc.
 
 If the ratio of negative tweets is over X %. it informs appropriate department with alarms by telephone system created by twilio. NLC is also used which department is adequate to be informed about inquiries and complaints.
