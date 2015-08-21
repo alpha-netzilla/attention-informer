@@ -1,6 +1,6 @@
 # What's this
 "Attention Informer" is an app that discovers claims in twitters using automated analytics powered by Insights for Twitter and the Natural Language Classifier(NLC) on IBM Bluemix. The app is able to detect the negative tweets and judge grammatical homophone correctly.  
-This time I assume the condition that are able to use in the cell phone companies in America, but it will be used anywhere in general. 
+This time I assume the condition useed in the cell phone companies in America, but it will be utilized anywhere in general. 
 
 
 
@@ -46,7 +46,7 @@ This time I have been using the twilio as a notification means, but of course an
 
 # Demo
 https://youtu.be/UkwGlk7h5eU
-
+produced by Nishi who is good designer.
 
 
 # See also
