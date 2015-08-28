@@ -46,7 +46,7 @@ This time I have been using the twilio as a notification means, but of course an
 
 # Demo
 https://youtu.be/UkwGlk7h5eU  
-produced by Nishi who is good designer.
+produced by [Nishi](https://instagram.com/pandaphone/) who is good designer.
 
 
 # See also
