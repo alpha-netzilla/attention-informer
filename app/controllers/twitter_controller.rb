@@ -161,8 +161,8 @@ class TwitterController < ApplicationController
 			http_nlc(tweets)
 		end
 
-    tn.join
-    tp.join
+                tn.join
+                tp.join
 
 
 		#logger.debug @count_positive
