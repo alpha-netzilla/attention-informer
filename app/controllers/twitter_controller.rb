@@ -25,7 +25,7 @@ class TwitterController < ApplicationController
 			end
 		end
 
-    threads.each { |th| th.join }
+               threads.each { |th| th.join }
 	end
 
 
