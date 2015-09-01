@@ -49,6 +49,22 @@ https://youtu.be/UkwGlk7h5eU
 produced by [Nishi](https://instagram.com/pandaphone/) who is good designer.
 
 
+
+# Notice
+Please change below when use it.  
+$ vi app/controllers/twitter_controller.rb
+
+    def post_nlc(tweet)
+      ~snip~
+      account = "your account"
+      password = "your password"
+
+      id_area = "classifier_id for point (2)"
+      id_contact = "classifier_id for point (3)"
+      ~snip~
+
+
+
 # See also
 http://alpha-netzilla.blogspot.com/  
 programmer' page
