@@ -31,12 +31,12 @@ class TwitterController < ApplicationController
 
 	def post_nlc(tweet)
 		lock = Mutex::new
-		account = "b01886c4-57dd-40f3-919a-4c8f6537bc6f"
-		password = "sO5bJ4vdq4Ig"
+		account = "your account"
+		password = "your password"
 
 
-		id_area = "985630-nlc-338"
-		id_contact = "985630-nlc-405"
+		id_area = "classifier_id for point (2)"
+		id_contact = "classifier_id for point (3)"
 		classifier_ids = [id_area, id_contact]
 
 		for classifier_id in classifier_ids do
