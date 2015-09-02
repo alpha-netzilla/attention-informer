@@ -66,6 +66,6 @@ $ vi app/controllers/twitter_controller.rb
 
 
 # See also
-http://alpha-netzilla.blogspot.jp/2015/09/attention-informer.html
+http://alpha-netzilla.blogspot.jp/2015/09/attention-informer.html  
 programmer' page
 
