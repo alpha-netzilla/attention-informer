@@ -43,6 +43,11 @@ For example, when searching the sprint, it is not necessarily the discovery asso
 This time I have been using the twilio as a notification means, but of course any tools like mail are good as well.
 
 
+# UI
+![before](http://4.bp.blogspot.com/-0x2Xdo2qZEc/Veal9hDugMI/AAAAAAAAAaE/qa8lU5r6avU/s640/attention-informer_before.png "before")
+![after](http://4.bp.blogspot.com/-M4bUAgcRv3s/VecRqlJcq5I/AAAAAAAAAao/19EtrzbcQ2Y/s640/attention-informer_after.png "after")
+
+
 
 # Demo
 https://youtu.be/UkwGlk7h5eU  
