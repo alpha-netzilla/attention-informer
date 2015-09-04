@@ -1,18 +1,14 @@
 
 class TwilioController < ApplicationController
 	def auth
-		logger.debug 1111111111
-		logger.debug to = params["to"]
-		logger.debug 2222222222
-		
 		account_sid = "AC9b5206ef97ee31a0b2fa12b7b8d89304"
 		auth_token = "0644e67d7da9cfc12a8f4ce62853b920"
 
-		from = "+815031540166"
-		#to = "+818041809410"
+		from = "+81********"
+		#to = "+81********"
 		to = params["to"]
 
-		server = "219.196.187.59"
+		server = "*.*.*.*"
 		#select = "http://#{@server}/twilio/direction.rb?page=select"
 		#callback = "http://#{@server}/twilio/direction.rb?page=callback"
 		url = "http://#{server}/twilio/answer"
