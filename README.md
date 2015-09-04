@@ -60,7 +60,7 @@ Designed by [Nishi](https://instagram.com/pandaphone/)
 
 
 # Notice
-Please change below when use it.  
+Please change below when to use it.  
 $ vi app/controllers/twitter_controller.rb
 
     def post_nlc(tweet)
