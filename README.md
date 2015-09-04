@@ -50,7 +50,11 @@ This time I have been using the twilio as a notification means, but of course an
 
 
 # Demo
-https://youtu.be/UkwGlk7h5eU  
+(Japanese) 3min  
+https://www.youtube.com/watch?v=UkwGlk7h5eU  
+
+(English) 30sec  
+https://www.youtube.com/watch?v=QfVdRtdxTCk  
 Designed by [Nishi](https://instagram.com/pandaphone/)
 
 
