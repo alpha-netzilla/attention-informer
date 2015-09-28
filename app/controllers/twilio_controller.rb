@@ -1,8 +1,8 @@
 
 class TwilioController < ApplicationController
 	def auth
-		account_sid = "AC9b5206ef97ee31a0b2fa12b7b8d89304"
-		auth_token = "0644e67d7da9cfc12a8f4ce62853b920"
+		account_sid = "****"
+		auth_token = "****"
 
 		from = "+81********"
 		#to = "+81********"
