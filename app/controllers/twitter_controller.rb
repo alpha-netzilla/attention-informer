@@ -41,7 +41,7 @@ class TwitterController < ApplicationController
 
 		for classifier_id in classifier_ids do
 
-			uri = URI.parse("https://gateway.watsonplatform.net/natural-language-classifier-experimental/api/v1/classifiers/#{classifier_id}/classify")
+			uri = URI.parse("https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/#{classifier_id}/classify")
 
 			response = Net::HTTP.start(uri.host, uri.port, :use_ssl => true) do |http|
 				http.open_timeout = 5
@@ -79,15 +79,15 @@ class TwitterController < ApplicationController
 
 
 			else
-				@error = [url.to_s, response.value].join(" : ")
+				@error = [uri.to_s, response.value].join(" : ")
 			end
 		end
 	end
 
 
 	def get_twitter(uri, target)
-		account = "77891c094827115b5a5ef3cd4b6617fe"
-		password = "AqQVA5aMq8"
+		account = "your account"
+		password = "your password"
 
 		uri = URI.parse(uri)
 		response = Net::HTTP.start(uri.host) do |http|
@@ -107,7 +107,7 @@ class TwitterController < ApplicationController
 				return JSON.parse(json)["tweets"]
 			end
 		else
-			@error = [url.to_s, response.value].join(" : ")
+			@error = [uri.to_s, response.value].join(" : ")
 		end
 	end
 
@@ -180,9 +180,9 @@ class TwitterController < ApplicationController
 
 		@count_ratio = (@count_negative.to_f / (@count_positive + @count_negative)  *100.0).ceil
 
-		logger.debug @count_positive
-		logger.debug @count_negative
-		logger.debug @count_ratio
+		#logger.debug @count_positive
+		#logger.debug @count_negative
+		#logger.debug @count_ratio
 
 	end
 
