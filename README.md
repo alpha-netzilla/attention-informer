@@ -63,7 +63,7 @@ Designed by [Nishi](https://instagram.com/pandaphone/)
 Please change below when to use it.  
 $ vi app/controllers/twitter_controller.rb
 
-    def post_nlc | def get_tweet
+    def post_nlc && def get_tweet
       ~snip~
       account = "your account"
       password = "your password"
